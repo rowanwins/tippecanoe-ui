@@ -31,7 +31,7 @@
 <script>
     import compareVersions from 'compare-versions'
     import axios from 'axios'
-    var spawn = require('child_process').spawn
+    import { spawn } from 'child_process'
 
     export default {
       name: 'Sidebar',

@@ -15,6 +15,11 @@ const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`
 
+if (process.env.NODE_ENV === 'production') {
+  const fixPath = require('fix-path')
+  fixPath()
+}
+
 function createWindow () {
   /**
    * Initial window options

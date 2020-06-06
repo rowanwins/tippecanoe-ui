@@ -27,7 +27,7 @@
 </template>
 
 <script>
-    var spawn = require('child_process').spawn
+    import { spawn } from 'child_process'
 
     export default {
       name: 'ProgressIndicator',
@@ -55,7 +55,7 @@
           const that = this
           this.$store.commit('setGenerationStarted', true)
 
-          var ls = spawn('tippecanoe', this.$store.getters.cmdParams)
+          var ls = spawn(`tippecanoe`, this.$store.getters.cmdParams)
           let pastMaxZoom = false
 
           ls.stderr.on('data', (data) => {

@@ -1,6 +1,21 @@
 # tippecanoe-ui
+A UI for the excellent [tippecanoe](https://github.com/mapbox/tippecanoe) library, used for generating vector tiles.
 
-> A UI for tippecanoe vector tile generation
+![sample](sample.gif)
+
+
+### Prerequisites
+You must have tippecanoe installed already.
+
+### Mac Installer 
+You should be able to download, unzip the file, and then double click to open.
+
+https://tippecanoe-ui.s3-ap-southeast-2.amazonaws.com/tippecanoe-ui.zip
+
+
+
+### Contributing
+Contributions are welcome. This app is built using electron, and in particular [electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/).
 
 #### Build Setup
 
@@ -14,12 +29,4 @@ npm run dev
 # build electron application for production
 npm run build
 
-
-# lint all JS/Vue component files in `src/`
-npm run lint
-
 ```
-
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[45a3e22](https://github.com/SimulatedGREG/electron-vue/tree/45a3e224e7bb8fc71909021ccfdcfec0f461f634) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).

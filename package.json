@@ -25,8 +25,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "compare-versions": "^3.6.0",
-    "mapbox-gl": "^1.10.0",
-    "shelljs": "^0.8.4",
+    "fix-path": "^3.0.0",
     "view-design": "^4.2.0",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
